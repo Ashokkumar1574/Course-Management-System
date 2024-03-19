@@ -1,0 +1,191 @@
+.AdminPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Container {
+    border: 10px solid violet;
+    border-radius: 30px;
+    width: 40%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+  
+  form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-box span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #999;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .btns button {
+    margin-right: 10px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .popup form {
+    width: 100%;
+  }
+  
+  .popup .input-box {
+    position: relative;
+  }
+  
+  .popup .input-box input {
+    width: calc(100% - 20px);
+  }
+  
+  .popup .input-box span {
+    top: -10px;
+  }
+  
+  .popup .btns button {
+    margin: 0 10px 0 0;
+  }
+  
+  .popup .btns button:last-child {
+    margin-right: 0;
+  }
+  label{
+    font-weight: bold;
+  }
+  button{
+    border: 5px solid violet;
+    border-radius: 7px;
+    color: violet;
+  }
+  form {
+    width: 100%;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .input-box input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-box label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust spacing between form and button */
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  section{
+    border: 10px solid rgb(9, 110, 233);
+    border-radius: 15px;
+    height: 500px;
+    width: 50%;
+  }
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .btns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+  }
+  

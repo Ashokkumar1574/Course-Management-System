@@ -1,0 +1,15 @@
+
+.table{
+    margin-top: 200px;
+    margin-left: 500px;
+    border: 2px solid black;
+    width: 600px;
+
+    
+}
+td{
+    border: 2px solid black;
+}
+.logout{
+    margin-top: 100px;
+}
